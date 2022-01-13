@@ -5,8 +5,6 @@ const lblOffline = document.querySelector('#lblOffline');
 const txtMensaje = document.querySelector('#txtMensaje');
 const btnEnviar = document.querySelector('#btnEnviar');
 
-lblOnline.style.display = 'none';
-
 const socket = io();
 
 
